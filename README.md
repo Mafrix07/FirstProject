@@ -1,0 +1,1 @@
+Ce projet consiste a créer un site universitaire grave auquel les etudiants pourront voir leurs notes et moyenne en temps réel ; mais egalement pourront suivre la courbe de leur évolution sur le plan academique au cours de l'année. 
