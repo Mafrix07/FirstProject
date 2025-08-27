@@ -1,0 +1,74 @@
+{
+  "etudiants": [
+    {
+      "id": 1,
+      "nom": "AMEYRAN",
+      "prenom": "Beaugard",
+      "notes": {
+        "Mathématiques": [
+          { "note": 12, "date": "2025-01-15" },
+          { "note": 15, "date": "2025-02-20" }
+        ],
+        "Physique": [
+          { "note": 10, "date": "2025-01-20" },
+          { "note": 14, "date": "2025-03-01" }
+        ],
+        "ALL 103": [
+          { "note": 14, "date": "2025-02-10" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "nom": "TOTO",
+      "prenom": "Akosssiwa",
+      "notes": {
+        "Mathématiques": [
+          { "note": 18, "date": "2025-01-15" },
+          { "note": 16, "date": "2025-02-20" }
+        ],
+        "Français": [
+          { "note": 15, "date": "2025-01-25" },
+          { "note": 13, "date": "2025-03-05" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "nom": "GBEGNON",
+      "prenom": "Divine",
+      "notes": {
+        "ALL 103": [
+          { "note": 11, "date": "2025-02-10" }
+        ],
+        "Histoire": []
+      }
+    }
+  ],
+  "professeurs": [
+    {
+      "id": 101,
+      "nom": "AGBODJAN",
+      "prenom": "Koffi",
+      "login": "Fokoffi",
+      "mdp": "password123",
+      "ue": "Mathématiques"
+    },
+    {
+      "id": 102,
+      "nom": "d'ALMEIDA",
+      "prenom": "Grâce",
+      "login": "Rdalmeida",
+      "mdp": "password456",
+      "ue": "ALL 103"
+    },
+    {
+      "id": 102,
+      "nom": "SHABAN",
+      "prenom": "Abdoulatif",
+      "login": "ashaban",
+      "mdp": "password456",
+      "ue": "CSC 240"
+    }
+  ]
+}
