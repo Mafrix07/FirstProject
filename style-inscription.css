@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+.header-container{
+    align-items: center;
+    justify-items: flex;
+    justify-content: space-around;
+    flex: auto;
+}
+ul{
+    display: flex;
+    justify-content:  space-between;
+    text-decoration: none;
+    list-style: none;
+    flex: 1 1 40rem;
+    align-items: center;
+    
+}
+.lien{
+    text-decoration: none;
+    color: #040303;
+}
+body {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+.container{
+  background: #bab6b6;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+.section_formulaire{
+   
+   justify-items: center;
+   align-items: center;
+    border: 1px solid #040303;
+  border-radius: 6px;
+  width: auto;
+  height: auto ;
+  background-color: white;
+  margin: 25px;
+  padding: 30px;
+  box-shadow: 10px 10px 5px rgba(4, 4, 4, 0.3);
+}
+form{
+    
+    
+}
+.formulaire {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.formulaire input {
+  width: 100%;
+  padding: 12px 40px 12px 15px;
+  border: 1px solid #727070;
+  border-radius: 6px;
+}
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #0059c9;
+}
+
+.section_image {
+  flex: 1;
+  background-image: url(WhatsApp\ Image\ 2025-08-27\ à\ 01.49.23_e007f76f.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+    background-position: center;
+    position: relative; align-items: center;
+}
