@@ -9,11 +9,13 @@
 <body>
     <header>
         <div class="header-container">
-            <h1 class="logo">2M University</h1>
-            <ul>
+           <div class="logoo"> <h1 class="logo">2M University</h1> </div>
+          <div class="raccourci"> 
+             <ul>
                 <li><a class="lien" href="index.html">Se connecter</a></li>
                 <li><a class="lien"  href="inscription.html">S'inscrire</a></li>
             </ul>
+          </div>
         </div>
 
     </header>
@@ -23,11 +25,32 @@
         <h2>S'inscrire </h2>
         <form action="">
             <div class="formulaire">
-                <input type="email" placeholder="Identifiant">
+                <label for="email">Identifiant</label>
+                <input type="email" placeholder="Exemple@gmail.com">
             </div>
-            <div class="formulaire">
+         <div class="formulaire">  
+                <label for="password">Mot de passe</label>
                 <input type="password" placeholder="Mot de passe">
-            </div>
+          </div> 
+          <div class="formulaire">
+            <label for="filiere">Filière</label>
+            <select name="filiere" id="filiere">
+                <option class="defaut" value="" selected disabled> --Choisissez votre filière--</option>
+                <option value="DA">Developpement d'application</option>
+                <option value="CS">Cyber-securité</option>
+                <option value="IA">Intelligence artificielle</option>
+                <option value="DS">Data-scientist</option>
+            </select>
+          </div>
+          <div class="formulaire">
+            <label for="niveau">Niveau</label>
+            <select name="niveau" id="niveau">
+                <option class="defaut" value="" selected disabled> --Choisissez votre niveau d'étude--</option>
+                <option value="lp1">1ère année</option>
+                <option value="lp2">2ème année</option>
+                <option value="lp3">3ème année</option>
+            </select>
+          </div>
             <button type="submit" class="btn">S'inscrire</button>
         </form>
         <p class="texte">Vous avez déja un compte ? <a href="index.html">Se connecter</a></p>

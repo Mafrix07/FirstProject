@@ -10,6 +10,13 @@
     justify-content: space-around;
     flex: auto;
 }
+.logoo{
+  flex: 1;
+}
+.raccourci{
+  flex: 1;
+  display: flex;
+}
 ul{
     display: flex;
     justify-content:  space-between;
@@ -44,6 +51,9 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   overflow: hidden;
 }
+label{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .section_formulaire{
    
    justify-items: center;
@@ -71,6 +81,15 @@ form{
   padding: 12px 40px 12px 15px;
   border: 1px solid #727070;
   border-radius: 6px;
+}
+.formulaire select{
+  width: 100%;
+  padding: 12px 40px 12px 15px;
+  border: 1px solid #727070;
+  border-radius: 6px;
+} 
+.defaut  {
+  color: #313030;
 }
 .btn {
   width: 100%;
